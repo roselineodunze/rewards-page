@@ -19,7 +19,7 @@ const Pagelayout = ({ children }) => {
       )}
       {renderLayout && (
         <div
-          className={`left_sidebar lg:w-[290px] h-full bg-white transform transition-transform duration-300 ease-in-out ${
+          className={`left_sidebar md:w-[290px] h-full bg-white transform transition-transform duration-300 ease-in-out ${
             showSidebar ? "show" : ""
           } `}
         >

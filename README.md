@@ -2,7 +2,7 @@
 
 This project is a recreation of the **rewards page** of a website. The goal of this project is to replicate the functionality and layout of the original rewards page, including the tabs, styles, and UI components.
 
-🚀 Live Site: 
+🚀 Live Site: https://rewards-page-4vd8.vercel.app
 
 ## Prerequisites
 

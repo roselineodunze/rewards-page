@@ -10,7 +10,7 @@ const Pagelayout = ({ children }) => {
   const renderLayout = pathname !== "/";
 
   return (
-    <div className="h-screen flex relative text-black w-screen overflow-hidden ">
+    <div className="h-screen flex relative text-black bg-white w-screen overflow-hidden ">
       {showSidebar && (
         <div
           className="fixed inset-0 bg-gray-900/55  z-40 xl:hidden"
@@ -19,7 +19,7 @@ const Pagelayout = ({ children }) => {
       )}
       {renderLayout && (
         <div
-          className={`left_sidebar md:w-[290px] h-full bg-white transform transition-transform duration-300 ease-in-out ${
+          className={`left_sidebar xl:w-[290px] h-full bg-white transform transition-transform duration-300 ease-in-out ${
             showSidebar ? "show" : ""
           } `}
         >

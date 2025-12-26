@@ -51,3 +51,22 @@ Dynamic content to simulate the rewards counters.
 
 Interactive design for a smooth user experience.
 
+
+## Assumptions and Trade-Offs
+
+While recreating the rewards page, several assumptions and trade-offs were made based on design choices and project constraints. Below are the key assumptions and decisions:
+
+### 1. **Design Assumptions**
+   - The **layout** and **reward categories** (All, Unlocked, Locked, Coming Soon) were assumed to be the core elements and were implemented based on the original design.
+   - **Responsiveness** was prioritized to ensure the page works well on both desktop and mobile. To optimize performance, **complex animations** were minimized, particularly on mobile devices.
+
+### 2. **Trade-offs in Functionality**
+   - **Real-time updates** for reward data were not implemented. The reward counts (Unlocked, Locked, Coming Soon) are currently static, although they could be dynamic in the future if data were fetched from a backend.
+   - **Authentication** was kept simple by using **Google authentication**. This eliminates the need for additional user registration or login systems (like email/password), but it limits flexibility for users who don’t have or prefer not to use Google accounts.
+
+### 3. **Technology Trade-offs**
+   - **React** was used for the frontend to handle dynamic UI updates and interactivity. While React is great for building complex user interfaces, it adds some complexity compared to using plain HTML/CSS.
+   - **Tailwind CSS** was chosen for styling to allow for rapid development and flexible, responsive layouts. 
+   - The app avoids backend integration for real-time data, focusing instead on static data to keep the app simple. Integrating real-time updates or more advanced backend features could be a future improvement.
+
+These assumptions and trade-offs were made to prioritize simplicity and **speed of development**, ensuring a clean, easy-to-use rewards page while leaving room for future enhancements.

@@ -2,6 +2,8 @@
 
 This project is a recreation of the **rewards page** of a website. The goal of this project is to replicate the functionality and layout of the original rewards page, including the tabs, styles, and UI components.
 
+🚀 Live Site: 
+
 ## Prerequisites
 
 Before setting up the project, make sure you have the following installed:
@@ -48,10 +50,4 @@ Tabs for different rewards statuses (All, Unlocked, Locked, Coming Soon).
 Dynamic content to simulate the rewards counters.
 
 Interactive design for a smooth user experience.
-
-
-
-
-
-
 

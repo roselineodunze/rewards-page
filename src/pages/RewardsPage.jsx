@@ -1,4 +1,4 @@
-import RewardsTab from "@/components/rewards-page/rewardsTab";
+import RewardsTab from "@/components/rewards-page/RewardsTab";
 import React from "react";
 
 const RewardsPage = () => {

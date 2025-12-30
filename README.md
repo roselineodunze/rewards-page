@@ -19,7 +19,7 @@ Follow these steps to set up and run the project on your local machine:
 ### 1. Clone the Repository
 
 Start by cloning this repository to your local machine using Git:
-    git clone https://github.com/yourusername/rewards-page.git
+    git clone https://github.com/roselineodunze/rewards-page.git
 
 ### 2. Navigate to the Project Directory
 

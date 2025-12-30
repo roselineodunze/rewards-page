@@ -6,22 +6,25 @@ import AuthPage from "./pages/AuthPage";
 import useAuthStore from "./stores/authStore";
 import { supabase } from "./config/supabase";
 
-function App(){
-  // const {user} = useAuthStore()
-  // if(!user) return
-  const authUser = async() => {
-    const { data: { user } } = await supabase.auth.getUser();
-    return user
-  }
+function App() {
+  const authUser = async () => {
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    return user;
+  };
 
   return (
     <>
       <Pagelayout>
-      <Routes>
+        <Routes>
           <Route path="/" element={<AuthPage />} />
         </Routes>
         <Routes>
-          <Route path="/rewards" element={ authUser ? <RewardsPage /> : <AuthPage />} />
+          <Route
+            path="/rewards"
+            element={authUser ? <RewardsPage /> : <AuthPage />}
+          />
         </Routes>
       </Pagelayout>
     </>
